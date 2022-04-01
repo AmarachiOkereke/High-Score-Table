@@ -13,7 +13,7 @@ const PlayerScore = (props) => {
                   {country.scores.map((value) => {
                     return (
                       <p>
-                        {value.n}: {value.s}{" "}
+                        {value.n.toUpperCase()} {value.s}{" "}
                       </p>
                     );
                   })}

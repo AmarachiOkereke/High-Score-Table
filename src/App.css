@@ -1,20 +1,41 @@
 .App {
   text-align: center;
   max-width: 500px;
+  margin-left: 25rem;
+   
 }
 .score-cards{
 display: grid;
 grid-template-columns: repeat(1, 1fr);
 
 }
+
 .card{
-border: 3px solid black;
+border: 10px solid #b3ff99;
 margin: 2rem;
+ 
 }
-p, h2{
-  border-bottom: 3px solid red;
+p{
+  border-bottom: 1px solid #363945;
   
+
 }
+
 .card-container{
-  border: 3px solid green;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(160, 218, 169), rgb(0, 161, 112));
+  border-image-slice: 1;
+ 
 }
+h1{
+  color: #b55a30;
+  font-family: Nunito, Sans;
+}
+
+ h2{
+  border-bottom: 1px solid #363945;
+  color: #b55a30;
+  
+ }
+
+ 
